@@ -40,3 +40,11 @@ a {
   font-weight: bold;
   color: green;
 }
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
