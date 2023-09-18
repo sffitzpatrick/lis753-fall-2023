@@ -35,3 +35,8 @@ body {
     margin-left: 20px;
     margin-bottom: 32px;
   }
+
+a {
+  font-weight: bold;
+  color: green;
+}
