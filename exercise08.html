@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>My "Hello, World!" page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="darkMode()">Toggle dark mode</button>
+      <div id="message">Welcome to my site. <button onclick="document.getElementById('message').classList.add('dismissed')">Dismiss</button></div>
+      <h1 id="page-title">Hello, World!</h1>
+      <img src="https://placekitten.com/600/400" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+      </p>
+    </div>
+    <script>
+      function darkMode() {
+        document.body.classList.toggle('dark-mode');
+      }
+    </script>
+  </body>
+</html>
