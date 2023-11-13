@@ -48,3 +48,31 @@ ul li a {
 ul li a:hover {
   text-decoration: underline;
 }
+
+body.dark-mode {
+  background: #010101;
+  color: #ffffff;
+}
+
+body.dark-mode button {
+  background-color: #ffffff;
+}
+
+#message {
+  background: #E9FFE4;
+  border: 1px solid #178201;
+  padding: 20px 40px;
+  margin: 12px 0;
+  border-radius: 4px;
+  opacity: 1;
+  transition: opacity .2s ease;
+}
+
+#message.dismissed {
+  opacity: 0;
+  height: 0;
+}
+
+#message button {
+  float: right;
+}
